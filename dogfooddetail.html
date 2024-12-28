@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Food Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6; /* Light background for a clean look */
+            color: #333; /* Text color for readability */
+        }
+
+        .details-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff; /* White background for content */
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #007BFF; /* Primary blue color for headings */
+        }
+
+        .details-container img {
+            display: block;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 10px;
+            border: 2px solid #007BFF; /* Blue border around the main image */
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #28a745; /* Green button for action */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+
+        /* Table Styles */
+        .image-table {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+            background-color: #f9f9f9; /* Light grey background for table */
+        }
+
+        .image-table th {
+            background-color: #007BFF; /* Blue header background */
+            color: white; /* White text in header */
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        .image-table td {
+            padding: 15px;
+            text-align: center;
+            vertical-align: top;
+            border-bottom: 1px solid #ddd; /* Subtle border for rows */
+        }
+
+        .image-table img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for images */
+        }
+
+        /* Hover Effect on Images */
+        .image-table img:hover {
+            transform: scale(1.05); /* Slight zoom on hover */
+            transition: transform 0.3s ease;
+        }
+
+        /* Footer Link */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="details-container">
+        <h1>Dog Food Details</h1>
+        <img src="dogfood.jpg" alt="Dog Food">
+        <p><strong>Brand:</strong> Premium Paws</p>
+        <p><strong>Ingredients:</strong> Chicken, Rice, Vegetables, Omega-3 Fatty Acids, Vitamins, and Minerals.</p>
+        <p><strong>Weight:</strong> 2kg, 5kg, and 10kg options available.</p>
+        <p><strong>Benefits:</strong> Supports a healthy coat, strong bones, and overall energy levels.</p>
+        <p><strong>Price:</strong> Starting at $25.</p>
+
+        <h2>Customer Testimonials</h2>
+        <p>See how dogs love Premium Paws!</p>
+
+        <!-- Table of images with descriptions -->
+        <table class="image-table" border="1">
+            <tr>
+                <th>Image</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="dog_eating1.jpg" alt="Dog eating food">
+                </td>
+                <td>
+                    A happy Golden Retriever enjoying a bowl of Premium Paws dog food. The balanced diet supports their shiny coat and active lifestyle.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="dog_eating2.jfif" alt="Dog licking bowl">
+                </td>
+                <td>
+                    A Labrador finishing every last bite! Premium Paws is loved by dogs of all sizes and breeds, ensuring complete satisfaction.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="dog_playing.jpg" alt="Dog playing energetically">
+                </td>
+                <td>
+                    A playful Beagle full of energy after enjoying a healthy meal. Omega-3 fatty acids in Premium Paws enhance their vitality and agility.
+                </td>
+            </tr>
+        </table>
+
+        <a href="index.php">Back to Home</a>
+    </div>
+
+    <footer>
+        <p>© 2024 Premium Paws. All rights reserved. <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>

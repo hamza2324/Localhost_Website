@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Food Details</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6; /* Light background for a clean look */
+            color: #333; /* Text color for readability */
+        }
+
+        .details-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff; /* White background for content */
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #007BFF; /* Primary blue color for headings */
+        }
+
+        .details-container img {
+            display: block;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 10px;
+            border: 2px solid #007BFF; /* Blue border around the main image */
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #28a745; /* Green button for action */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+
+        /* Table Styles */
+        .image-table {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+            background-color: #f9f9f9; /* Light grey background for table */
+        }
+
+        .image-table th {
+            background-color: #007BFF; /* Blue header background */
+            color: white; /* White text in header */
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        .image-table td {
+            padding: 15px;
+            text-align: center;
+            vertical-align: top;
+            border-bottom: 1px solid #ddd; /* Subtle border for rows */
+        }
+
+        .image-table img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for images */
+        }
+
+        /* Hover Effect on Images */
+        .image-table img:hover {
+            transform: scale(1.05); /* Slight zoom on hover */
+            transition: transform 0.3s ease;
+        }
+
+        /* Footer Link */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="details-container">
+        <h1>Cat Food Details</h1>
+        <img src="catfood.png" alt="Cat Food">
+        <p><strong>Brand:</strong> Whisker Delights</p>
+        <p><strong>Ingredients:</strong> Tuna, Salmon, Chicken, Taurine, Omega-3, and Essential Vitamins.</p>
+        <p><strong>Weight:</strong> 1kg, 3kg, and 7kg options available.</p>
+        <p><strong>Benefits:</strong> Promotes a shiny coat, sharp vision, and healthy digestion.</p>
+        <p><strong>Price:</strong> Starting at $20.</p>
+
+        <h2>Customer Testimonials</h2>
+        <p>See how cats adore Whisker Delights!</p>
+
+        <!-- Table of images with descriptions -->
+        <table class="image-table" border="1">
+            <tr>
+                <th>Image</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="cat_eating1.jpg" alt="Cat eating food">
+                </td>
+                <td>
+                    A happy Siamese cat savoring every bite of Whisker Delights. A balanced meal ensures their health and happiness.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="cat_eating2.avif" alt="Cat relaxing after meal">
+                </td>
+                <td>
+                    A Persian cat lounging contentedly after a satisfying meal. Whisker Delights supports their energy and silky coat.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="cat_playing.jpg" alt="Cat playing energetically">
+                </td>
+                <td>
+                    A playful Maine Coon energized by the nutritious meal. Omega-3 and taurine keep them active and sharp.
+                </td>
+            </tr>
+        </table>
+
+        <a href="index.php">Back to Home</a>
+    </div>
+
+    <footer>
+        <p>© 2024 Whisker Delights. All rights reserved. <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
